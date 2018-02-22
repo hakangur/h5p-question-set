@@ -1,51 +1,51 @@
 {
   "semantics": [
     {
-      "label": "Quiz introduction",
+      "label": "Sınav tanıtımı",
       "fields": [
         {
-          "label": "Display introduction"
+          "label": "Tanıtımı göster"
         },
         {
-          "label": "Title",
-          "description": "This title will be displayed above the introduction text."
+          "label": "Başlık",
+          "description": "Bu başlıj tanıtım metninin üstünde gösterilir."
         },
         {
           "label": "Giriş metni",
-          "description": "This text will be displayed before the quiz starts."
+          "description": "Bu metin sınav başlamadan önce gösterilir."
         },
         {
-          "label": "Start button text",
-          "default": "Start Quiz"
+          "label": "Başlama tuşu metni",
+          "default": "Sınavı Başlat"
         },
         {
-          "label": "Background image",
-          "description": "An optional background image for the introduction."
+          "label": "Arka plan resmi",
+          "description": "İstenirse, giriş için arka plan resmi."
         }
       ]
     },
     {
-      "label": "Background image",
-      "description": "An optional background image for the Question set."
+      "label": "Arka plan resmi",
+      "description": "İstenirse, Sınav Set için arka plan resmi."
     },
     {
-      "label": "Progress indicator",
-      "description": "Question set progress indicator style.",
+      "label": "İlerleme Gösterger,",
+      "description": "Sınav Seti ilerleme göstergesi stili.",
       "options": [
         {
           "label": "Metin"
         },
         {
-          "label": "Dots"
+          "label": "Noktalar"
         }
       ]
     },
     {
       "label": "Geçiş yüzdesi",
-      "description": "Quizi geçmek için gerekli toplam puan yüzdesi."
+      "description": "Sınavı geçmek için gerekli toplam puan yüzdesi."
     },
     {
-      "label": "Questions",
+      "label": "Sorular",
       "widgets": [
         {
           "label": "Varsayılan"
@@ -56,110 +56,110 @@
       ],
       "entity": "question",
       "field": {
-        "label": "Question type",
-        "description": "Library for this question."
+        "label": "Soru türü",
+        "description": "Bu soru için kitaplık."
       }
     },
     {
-      "label": "Interface texts in quiz",
+      "label": "Sınavda arayüzü metinleri",
       "fields": [
         {
-          "label": "Back button",
-          "default": "Previous question"
+          "label": "Geri dön tuşu",
+          "default": "Önceki soru"
         },
         {
-          "label": "Next button",
-          "default": "Next question"
+          "label": "İleri git tuşu",
+          "default": "Sonraki soru"
         },
         {
-          "label": "Finish button",
+          "label": "Bitirme tuşu",
           "default": "Bitir"
         },
         {
-          "label": "Progress text",
-          "description": "Text used if textual progress is selected.",
-          "default": "Question: @current of @total questions"
+          "label": "İlerleme metni",
+          "description": "Metinle ilerleme gösterilecekse kullanılacak metin.",
+          "default": "Soru: @current / @total questions"
         },
         {
-          "label": "Label for jumping to a certain question",
-          "description": "You must use the placeholder '%d' instead of the question number, and %total instead of total amount of questions.",
-          "default": "Question %d of %total"
+          "label": "Belirli bir soruya atlama için başlık",
+          "description": "Soru numarası yerine '%d' ve toplam soru sayısı yerine de %total kullanılmalı.",
+          "default": "Soru %d / %total"
         },
         {
-          "label": "Copyright dialog question label",
+          "label": "Telif hakkı yazısı soru başlığı",
           "default": "Soru"
         },
         {
-          "label": "Readspeaker progress",
-          "description": "May use @current and @total question variables",
-          "default": "Question @current of @total"
+          "label": "Readspeaker ilerlemesi",
+          "description": "@current ve @total soru değişkenleri kullanılabilir",
+          "default": "Soru @current / @total"
         },
         {
-          "label": "Unanswered question text",
-          "default": "Unanswered"
+          "label": "Yanıtlanmamış soru metni",
+          "default": "Yanıtlanmadı"
         },
         {
-          "label": "Answered question text",
-          "default": "Answered"
+          "label": "Yanıtlanmış soru metni",
+          "default": "Yanıtlandı"
         },
         {
-          "label": "Current question text",
-          "default": "Current question"
+          "label": "Şu anki soru metni",
+          "default": "Şu anki soru"
         }
       ]
     },
     {
-      "label": "Disable backwards navigation",
-      "description": "This option will only allow you to move forward in Question Set"
+      "label": "Geri gitmeyi engelle",
+      "description": "Bu seçenekle Sınav Seti içinde yalnızca ileri doğru gidilebilir"
     },
     {
-      "label": "Randomize questions",
-      "description": "Soruları sırasını ekranda rasgele gelmesi için etkinleştirin."
+      "label": "Soruları harmanla",
+      "description": "Soruların ekranda rastgele gelmesi için etkinleştirin."
     },
     {
-      "label": "Number of questions to be shown:",
-      "description": "Create a randomized batch of questions from the total."
+      "label": "Gösterilecek soru sayısı:",
+      "description": "Toplam içinden rastgele seçilecek soru sayısını belirleyin."
     },
     {
-      "label": "Quiz finished",
+      "label": "Sınav bitti",
       "fields": [
         {
-          "label": "Display results"
+          "label": "Sonuçları göster"
         },
         {
-          "label": "Display solution button"
+          "label": "Çözüm tuşunu göster"
         },
         {
-          "label": "No results message",
-          "description": "Text displayed on end page when \"Display results\" is disabled",
-          "default": "Finished"
+          "label": "Sonuç yok mesajı",
+          "description": "\"Sonuçları göster\" devredışı olduğunda son sayfada gösterilecek metin",
+          "default": "Bitti"
         },
         {
-          "label": "Feedback heading",
-          "default": "Your result:",
-          "description": "This heading will be displayed at the end of the quiz when the user has answered all questions."
+          "label": "Geribildirim başlığı",
+          "default": "Sonucunuz:",
+          "description": "Kullanıcı tüm soruları yanıtlayınca sınav sonunda bu başlık gösterilir."
         },
         {
-          "label": "Overall Feedback",
+          "label": "Genel Geribildirim",
           "fields": [
             {
               "widgets": [
                 {
-                  "label": "Default"
+                  "label": "Varsayılan"
                 }
               ],
-              "label": "Define custom feedback for any score range",
-              "description": "Example: 0-20% Bad score, 21-91% Average Score, 91-100% Great Score!",
+              "label": "Herhangi bir skor erimi için kendi geribildiriminizi tanımlayın",
+              "description": "Örneğin: %0-20 Kötü sonuç, %21-91 Ortalama sonuç, % 91-100 Çok İyi Sonuç!",
               "entity": "range",
               "field": {
                 "fields": [
                   {
-                    "label": "Score Range"
+                    "label": "Skor Erimi"
                   },
                   {},
                   {
-                    "label": "Feedback for defined score range",
-                    "placeholder": "Fill in the feedback"
+                    "label": "Tanımlanan skor erimi için geribildirim",
+                    "placeholder": "Geribildirin yazın"
                   }
                 ]
               }
@@ -167,88 +167,88 @@
           ]
         },
         {
-          "label": "Old Feedback",
+          "label": "Eski Geribildirim",
           "fields": [
             {
-              "label": "Quiz passed greeting",
-              "description": "This text will be displayed above the score if the user has successfully passed the quiz."
+              "label": "Sınavı geçtiniz mesajı",
+              "description": "Kullanıcı sınavı geçerse bu metin skorun üstünde gösterilir."
             },
             {
-              "label": "Passed comment",
-              "description": "This comment will be displayed after the score if the user has successfully passed the quiz."
+              "label": "Geçme durumunda yorum",
+              "description": "Kullanıcı sınavı geçerse bu yorum skordan sonra gösterilir."
             },
             {
-              "label": "Quiz failed title",
-              "description": "This text will be displayed above the score if the user has failed the quiz."
+              "label": "Sınavı geçemediniz mesajı",
+              "description": "Kullanıcı sınavı geçemezse bu metin skorun üstünde gösterilir."
             },
             {
-              "label": "Failed comment",
-              "description": "This comment will be displayed after the score if the user has failed the quiz."
+              "label": "Kalma durumunda yorum",
+              "description": "Kullanıcı sınavı geçemezse bu yorum skordan sonra gösterilir."
             }
           ]
         },
         {
-          "label": "Solution button label",
+          "label": "Çözüm tuşu yazısı",
           "default": "Çözümü göster",
-          "description": "Text for the solution button."
+          "description": "Çözüm tuşu için metin."
         },
         {
-          "label": "Yeniden dene buton etiketi",
+          "label": "Yeniden dene tuşu yazısı",
           "default": "Yeniden dene",
-          "description": "Text for the retry button."
+          "description": "Yeniden dene tuşu için metin."
         },
         {
-          "label": "Finish button text",
+          "label": "Bitirme tuşu yazısı",
           "default": "Bitir"
         },
         {
-          "label": "Display video before quiz results"
+          "label": "Sınav sonucundan önce video göster"
         },
         {
-          "label": "Enable skip video button"
+          "label": "Videoyu atlama tuşunu devreye sok"
         },
         {
-          "label": "Skip video button label",
-          "default": "Skip video"
+          "label": "Videoyu atlama tuşu metni",
+          "default": "Videoyu atla"
         },
         {
-          "label": "Passed video",
-          "description": "This video will be played if the user successfully passed the quiz."
+          "label": "Geçme durumunda video",
+          "description": "Kullanıcı sınavı geçerse bu video gösterilir."
         },
         {
-          "label": "Fail video",
-          "description": "This video will be played if the user failes the quiz."
+          "label": "Kalma durumunda video",
+          "description": "Kullanıcı sınavı geçemezse bu video gösterilir."
         }
       ]
     },
     {
-      "label": "Settings for \"Show solution\" and \"Retry\" buttons",
+      "label": "\"Çözümü göster\" ve \"Yeniden dene\" tuşları için ayarlar",
       "fields": [
         {
-          "label": "Show \"Check\" buttons",
-          "description": "This option determines if the \"Check\" button will be shown for all questions."
+          "label": "\"Kontrol et\" tuşlarını göster",
+          "description": "Bu seçenekle tüm sorularda \"Kontrol et\" tuşunun gösterilip gösterilmeyeceği belirlenir."
         },
         {
-          "label": "Override \"Show Solution\" button",
-          "description": "This option determines if the \"Show Solution\" button will be shown for all questions, disabled for all or configured for each question individually.",
+          "label": "\"Çözümü Göster\" tuşunu geçersiz kıl",
+          "description": "Bu seçenekle \"Çözümü Göster\" tuşunun tüm sorularda mı gösterileceği, tamamen devredışı mı kalacağı, ya da her bir soru için ayrıca mı seçileceği belirlenir.",
           "options": [
             {
-              "label": "Enabled"
+              "label": "Devrede"
             },
             {
-              "label": "Disabled"
+              "label": "Devredışı"
             }
           ]
         },
         {
-          "label": "Override \"Retry\" button",
-          "description": "This option determines if the \"Retry\" button will be shown for all questions, disabled for all or configured for each question individually.",
+          "label": "\"Yeniden dene\" tuşunu geçersiz kıl",
+          "description": "Bu seçenekle \"Yeniden dene\" tuşunun tüm sorularda mı gösterileceği, tamamen devredışı mı kalacağı, ya da her bir soru için ayrıca mı seçileceği belirlenir.",
           "options": [
             {
-              "label": "Enabled"
+              "label": "Devrede"
             },
             {
-              "label": "Disabled"
+              "label": "Devredışı"
             }
           ]
         }
